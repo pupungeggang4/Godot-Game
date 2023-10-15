@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://j3g24dpgd6ju"]
+[gd_scene load_steps=3 format=3 uid="uid://j3g24dpgd6ju"]
 
 [ext_resource type="Script" path="res://Script/Scene/Title.gd" id="1_mmbnr"]
+[ext_resource type="Texture2D" uid="uid://ceo06junvionm" path="res://icon.svg" id="2_rmm16"]
 
 [node name="Title" type="Node2D"]
 position = Vector2(-2, 0)
@@ -9,3 +10,7 @@ script = ExtResource("1_mmbnr")
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1214, 650)
+texture = ExtResource("2_rmm16")
