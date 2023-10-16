@@ -10,4 +10,3 @@ func input_handle():
 	if Input.is_action_just_released("click_left"):
 		var mouse = get_viewport().get_mouse_position()
 		print(mouse)
-		get_node('ColorRect').color = Color(0, 0, 0)
